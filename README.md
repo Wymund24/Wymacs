@@ -1,0 +1,2 @@
+# Wymacs
+Wymund Emacs configuration!
