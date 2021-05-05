@@ -11,6 +11,7 @@
   (require 'init-font)
   (require 'init-elpa)  ;; Package management
   (require 'init-theme) ;; Setup theme
+  (require 'init-text)  ;; text, org, markdown etc.
   )
 
 (setq custom-file (expand-file-name "~/.emacs.d/wymlisp/init-custom.el"))

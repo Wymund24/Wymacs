@@ -40,4 +40,7 @@
 ;; Setup `theme'
 (require-package 'spacemacs-theme)
 
+;;
+(require-package 'markdown-mode)
+
 (provide 'init-elpa)
