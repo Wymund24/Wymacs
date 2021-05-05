@@ -9,6 +9,8 @@
   ;; 
   (require 'init-basic)
   (require 'init-font)
+  (require 'init-elpa)  ;; Package management
+  (require 'init-theme) ;; Setup theme
   )
 
 (setq custom-file (expand-file-name "~/.emacs.d/wymlisp/init-custom.el"))
