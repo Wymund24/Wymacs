@@ -12,7 +12,10 @@
   (require 'init-elpa)  ;; Package management
   (require 'init-theme) ;; Setup theme
   (require 'init-text)  ;; text, org, markdown etc.
+  (require 'init-ivy)   ;; ivy 
   (require 'init-evil)  ;; Evil mode
+  (require 'init-windows) ;; ctrl windows navy
+  (require 'init-kbd)   ;; Key binding
   )
 
 (setq custom-file (expand-file-name "~/.emacs.d/wymlisp/init-custom.el"))
