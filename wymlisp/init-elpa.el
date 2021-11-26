@@ -4,10 +4,16 @@
 (require 'package)
 ;; (package-initialize)
 
-(setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
-			 ("melpa" . "http://elpa.emacs-china.org/melpa/")
-			 ("melpa-stable" . "http://elpa.emacs-china.org/marmalade/")
-			 ("Org" . "http://elpa.emacs-china.org/org/")
+(setq package-archives '(
+
+			 ;; ("gnu"   . "http://elpa.emacs-china.org/gnu/")
+			 ;; ("melpa" . "http://elpa.emacs-china.org/melpa/")
+			 ;; ("melpa-stable" . "http://elpa.emacs-china.org/marmalade/")
+			 ;; ("Org" . "http://elpa.emacs-china.org/org/")
+
+			 ("gnu" . "https://mirrors.163.com/elpa/gnu/")
+			 ("melpa" . "https://mirrors.163.com/elpa/melpa/")
+			 ("melpa-stable" . "https://mirrors.163.com/elpa/melpa-stable/")
 			 ))
 
 ;; (package-initialize)
