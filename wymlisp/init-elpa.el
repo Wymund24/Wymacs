@@ -43,10 +43,30 @@
 (require-package 'diminish) ;; if you use :diminish
 (require-package 'bind-key) ;; if you use any :bind variant
 
+;; Setup `Features'
+;; (require-package 'avy)
+;; (require-package 'ivy)
+;; (require-package 'company)
+;; (require-package 'company-statistics)
+;; (require-package 'which-key)
+;; (require-package 'window-numbering)
+;; (require-package 'counsel)
+;; (require-package 'swiper)
+;; (require-package 'smex)
+;; (require-package 'smartparens)
+;; (require-package 'rainbow-delimiters)
+;; (require-package 'diredfl)
+;; (require-package 'hydra)
+
 ;; Setup `theme'
 (require-package 'spacemacs-theme)
 
-;;
+;; Setup `Text'
 (require-package 'markdown-mode)
+
+;; Setup `Evil'
+(require-package 'evil)
+(require-package 'evil-leader)
+(require-package 'evil-escape)
 
 (provide 'init-elpa)

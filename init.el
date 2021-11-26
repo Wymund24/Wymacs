@@ -12,6 +12,7 @@
   (require 'init-elpa)  ;; Package management
   (require 'init-theme) ;; Setup theme
   (require 'init-text)  ;; text, org, markdown etc.
+  (require 'init-evil)  ;; Evil mode
   )
 
 (setq custom-file (expand-file-name "~/.emacs.d/wymlisp/init-custom.el"))
